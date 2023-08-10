@@ -15,7 +15,7 @@ section {
    padding: 25px 7%;
 }
 body {
-   width: 98vw;
+   width: 100%;
    background-color: var(--blueColor);
    color: var(--whiteColor);
    display: flex;
@@ -198,16 +198,16 @@ footer {
    display: flex;
    align-items: center;
    padding: 20px 0;
-   justify-content: space-around;
+   justify-content: space-between;
    background-color: black;
 }
 footer P {
+   font-size: 10px;
    font-weight: 600;
 }
 footer ul {
    display: flex;
    gap: 60px;
-   align-items: center;
 }
 footer ul a {
    font-size: 1.5rem;
@@ -216,5 +216,4 @@ footer ul a {
 
 footer ul li a :hover {
    color: var(--whiteColor);
-   font-size: 1.7rem;
 }
